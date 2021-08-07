@@ -1,0 +1,68 @@
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    overflow: auto;
+    background-color: #E7EBD3;
+}
+.linkList {
+    list-style: none;
+    float: left;
+    margin: 20px 75px 20px 75px;
+}
+li {
+    display: inline;
+    margin-right: 15px;
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+    color: grey;
+}
+a:hover {
+    color: red;
+    text-decoration:underline;
+}
+.Banner {
+    overflow: auto;
+}
+.subHeading {
+    color: black;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.mainImage {
+    display: inline;
+    border: 5px black solid;
+    height: 525px;
+    width: 500px;
+    float: left;
+    margin: 10px 20px 10px 10px;
+}
+.mainDescription {
+    display: inline;
+}
+.mainHeading {
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-family: 'Merriweather', serif;
+}
+.stats {
+    color: black;
+    font-size: 25px;
+    margin-top: 0;
+}
+body {
+    background-color: #E7EBD3;
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .linkList {
+        margin: 5px 10px 5px 10px;
+        float: left;
+    }
+    li {
+        font-size: 18px;
+    }
+}
